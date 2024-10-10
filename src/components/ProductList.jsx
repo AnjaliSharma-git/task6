@@ -1,6 +1,6 @@
 import React from 'react';
-import Product from './Product'; // Assuming you have a Product component
-import './style.css'; // Import your global styles
+import Product from './Product'; 
+import './style.css'; 
 
 const ProductList = ({ products, cart, setCart }) => {
   return (

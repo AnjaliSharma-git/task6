@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'; // Import CSS file
+import './style.css'; 
 
 const Product = ({ product, cart, setCart }) => {
   const isInCart = cart.find(item => item.id === product.id);

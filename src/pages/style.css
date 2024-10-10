@@ -1,4 +1,3 @@
-/* style.css */
 
 .cart-container {
     max-width: 1200px;
@@ -18,8 +17,8 @@
   
   .cart-list {
     display: flex;
-    flex-direction: column; /* Display items in a column */
-    gap: 20px; /* Space between items */
+    flex-direction: column; 
+    gap: 20px; 
   }
   
   .cart-item {
@@ -65,17 +64,17 @@
   }
   
   .remove-btn {
-    background-color: #e74c3c; /* Red background */
+    background-color: #e74c3c;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px; /* Space above the button */
+    margin-top: 10px; 
   }
   
   .remove-btn:hover {
-    background-color: #c0392b; /* Darker red on hover */
+    background-color: #c0392b; 
   }
   
   .total-price {

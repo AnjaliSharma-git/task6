@@ -1,11 +1,11 @@
-/* navbar.css */
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #802c6e; /* Your preferred background color */
+    background-color: #802c6e; 
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
@@ -17,42 +17,39 @@
   
   .navbar-title {
     text-decoration: none;
-    color: white; /* White color for text */
+    color: white; 
     transition: color 0.3s ease;
   }
   
   .navbar-title:hover {
-    color: #f7aa35; /* Hover color for title */
+    color: #f7aa35; 
   }
   
   .navbar-links {
     display: flex;
-    gap: 20px; /* Space between links */
+    gap: 20px; 
   }
   
   .navbar-link {
     text-decoration: none;
-    color: white; /* Link color */
+    color: white;
     font-size: 18px;
     transition: color 0.3s ease;
   }
   
   .navbar-link:hover {
-    color: #f7aa35; /* Hover color for links */
+    color: #f7aa35; 
   }
   
 
 
-  
- /* Product Grid Styling */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px; /* Gap between cards */
+    gap: 20px; 
     padding: 20px;
   }
   
-  /* Card Styling */
   .card {
     background-color: white;
     border: 1px solid #ddd;
@@ -63,8 +60,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; /* Center content */
-    min-height: 300px; /* Ensures all cards are the same height */
+    align-items: center;
+    min-height: 300px; 
   }
   
   .card:hover {
@@ -73,8 +70,8 @@
   
   .card img {
     max-width: 100%;
-    height: 150px; /* Ensures uniform image height */
-    object-fit: cover; /* Ensures image fits within bounds */
+    height: 150px;
+    object-fit: cover;
     border-radius: 8px;
   }
   
@@ -90,8 +87,8 @@
     color: #555;
     text-align: center;
     margin-bottom: 10px;
-    height: 60px; /* Sets a fixed height for the description */
-    overflow: hidden; /* Hides overflow text */
+    height: 60px; 
+    overflow: hidden; 
   }
   
   .card button {

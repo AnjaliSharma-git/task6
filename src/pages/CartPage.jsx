@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'; // Import CSS file
+import './style.css';
 
 const CartPage = ({ cart, setCart }) => {
   const handleQuantityChange = (id, delta) => {
